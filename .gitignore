@@ -1,0 +1,44 @@
+# 后端 Java 相关
+/backend/target/
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/.settings/
+/backend/.classpath
+/backend/.project
+/backend/.factorypath
+/backend/.springBeans
+/backend/.sts4-cache
+/backend/bin/
+
+# 前端相关
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.DS_Store
+
+# IDE相关
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 系统相关
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 配置文件中的敏感信息
+/backend/src/main/resources/application-prod.properties
